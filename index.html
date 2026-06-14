@@ -1,0 +1,151 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+    />
+    <link rel="stylesheet" href="https://unpkg.com/aos@2.3.4/dist/aos.css" />
+  </head>
+  <body>
+    <header>
+      <div class="nav">
+        <h1>PORTOFOLIO</h1>
+
+        <nav class="navbar" id="navigasi">
+          <a href="#Introduce">Home</a>
+          <a href="#skill">Skill</a>
+          <a href="#project">Project</a>
+          <a href="#about">About</a>
+          <span class="icon" onclick="toggleMenu()">&#9776;</span>
+        </nav>
+      </div>
+    </header>
+
+    <section class="Introduce" id="Introduce">
+      <div class="Introduce sec">
+        <img src="img/Foto 1.jpg" alt="" width="200px" />
+        <h2>Halo, I'm Ferdi Febriansyah</h2>
+
+        <p>
+          <span
+            class="typed"
+            data-typed-items="Front End Developer, Desain Grafis"
+          ></span>
+        </p>
+        <a href="#Contact">
+          <button>MY CONTACT</button>
+        </a>
+      </div>
+    </section>
+
+    <section class="about" id="about">
+      <div data-aos="fade-up">
+        <img src="img/foto 2.jpg" alt="" width="120px" />
+        <h2>About Me</h2>
+        <p>
+        i am an Informatics student with a strong interest in web development, information technology, and digital innovation. I am passionate about learning new technologies and continuously improving my technical and problem-solving skills. I have experience working on web development projects using HTML, CSS, PHP, and MySQL, and I enjoy creating user-friendly and functional applications. I am a responsible, adaptable, and fast learner who is eager to contribute to a professional team while gaining valuable industry experience.
+        </p>
+      </div>
+    </section>
+
+    <section class="skill" id="skill">
+      <div data-aos="fade-right" data-aos-duration="1500">
+        <h2>Skill</h2>
+
+        <div class="skill-list">
+          <div class="card">
+            <img src="img/html.webp" alt="" width="50px" />
+          </div>
+          <div class="card">
+            <img src="img/css.webp" alt="" width="50px" />
+          </div>
+          <div class="card"><img src="img/js.webp" alt="" width="50px" /></div>
+          <div class="card">
+            <img src="img/react.png" alt="" width="50px" />
+          </div>
+          <div class="card">
+            <img src="img/tailwind.webp" alt="" width="50px" />
+          </div>
+            <div class="card">
+            <img src="img/corel.png" alt="" width="50px" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="project" id="project">
+      <div data-aos="fade-up-right">
+        <h2>Project</h2>
+        <p>Some project i've been Develop</p>
+        <div class="project-list">
+          <div class="project-card">
+            LP3I Digital Space
+            <div class="project-foto">
+              <img src="img/lp3i.png" alt="" width="200px" />
+           
+            </div>
+          </div>
+          <div class="project-card lanyard">
+            Design Lanyard BEM LP3I 2026
+            <div class="project-foto">
+              <img
+                src="img/desain.png"
+                alt=""
+                width="200px"
+                height=""
+              />
+           
+        </div>
+      </div>
+    </section>
+
+    <section class="Contact" id="Contact">
+      <div class="form-container" data-aos="flip-up">
+        <h2>Contact Me</h2>
+        <p>If you want to chat with me just send your message</p>
+        <div class="form-group">
+          <form id="formPesan">
+          <label for="">Nama : </label>
+          <input type="text"  id="nama" />
+
+          <br /><label for="">Email :</label>
+          <input type="text" id="email"/>
+
+          <br /><label for="">Message : </label>
+          <input type="text" id="pesan"/>
+
+          <br /><button type="submit">send Message</button>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <p>© 2026 Ferdi | ALL Right Reserved</p>
+
+      <div class="sosmed">
+    <a href="https://www.facebook.com/Bang Junior" target="_blank" rel="noopener noreferrer">
+    <i class="fab fa-facebook social-icon facebook"></i>
+    </a>
+   <a href="https://wa.me/6282383397993?text=Hello%2C%20I%20want%20to%20chat%21" target="_blank" rel="noopener">
+    <i class="fab fa-whatsapp social-icon whatsapp"></i>
+    </a>
+     <a href="https://www.instagram.com/ferdifebriansyah10" target="_blank" rel="noopener noreferrer">
+    <i class="fab fa-instagram social-icon instagram"></i>
+    </a>
+    
+    </footer>
+
+    <script src="script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+  </body>
+</html>
